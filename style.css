@@ -95,6 +95,7 @@ aside i{
     justify-content: center;
     margin:0 30rem 0 30rem;
     border:2px solid white;
+    border-radius:10px;
     /* animation:titleanimate 5s ease-in 0 infinte normal; */
 }
 #main{
@@ -199,6 +200,7 @@ aside i{
     padding:1rem 0 0 0.5rem;
     text-align:start;
     background-color:rgb(35, 34, 34);
+    list-style-type:none;
 }
 #clockpic{
     position: relative;
@@ -230,4 +232,10 @@ h1{
     to {background-color: #FF5F1F ;
     }
 }
+.implink{
+    display:block;
+    padding:1rem 0 0 0.5rem;
+    text-decoration:none;
+}
+
 
