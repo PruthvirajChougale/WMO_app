@@ -16,7 +16,7 @@
     background-color:rgb(35, 34, 34);
     transition:all 0.4s ease-in 0s;
     z-index: 1;
-    border-right:1.5px solid orange;
+    border-right:1.5px solid #FF5F1F;
 }
 #container{
     top:3rem;
@@ -27,7 +27,7 @@
     top:1rem;
     width:15rem;
     height:100%;
-    border-right:1.5px solid orange;
+    border-right:1.5px solid #FF5F1F;
 }
 #check{
     display:none;
@@ -61,7 +61,7 @@ aside{
     height:100vh;
     width:15rem;
     background-color:rgb(35, 34, 34);
-    border-right:1.5px solid orange;
+    border-right:1.5px solid #FF5F1F;
 }
 a,h2,h3{
     background-color:rgb(35, 34, 34) ;
@@ -89,11 +89,13 @@ aside i{
 }
 #title{
     height:4rem;
+    width:20rem;
     display:flex;
     align-items:center;
     justify-content: center;
     margin:0 30rem 0 30rem;
     border:2px solid white;
+    /* animation:titleanimate 5s ease-in 0 infinte normal; */
 }
 #main{
     display: flex;
@@ -120,25 +122,25 @@ aside i{
     width:15rem;
     background-color:rgb(35, 34, 34) ;
     border-radius: 10px;
-    border-right:1.5px solid orange;
+    border-right:1.5px solid #FF5F1F;
 }
 #emails{
     height:20rem;
     width:15rem;
     background-color:rgb(35, 34, 34) ;
     border-radius: 10px;
-    border-right:1.5px solid orange;
+    border-right:1.5px solid #FF5F1F;
 }
 #calender{
     height:20rem;
     width:20rem;
-    border-right:1.5px solid orange;
+    border-right:1.5px solid #FF5F1F;
 
 }
 #notifications{
     height:20rem;
     width:20rem;
-    border-right:1.5px solid orange;
+    border-right:1.5px solid #FF5F1F;
 
 }
 #clocklink{
@@ -154,7 +156,7 @@ aside i{
     height:12rem;
     width:20rem;
     background-color:rgb(35, 34, 34) ;
-    border-right:1.5px solid orange;
+    border-right:1.5px solid #FF5F1F;
     border-radius: 10px;
     
 }
@@ -166,7 +168,7 @@ aside i{
     background-color:rgb(35, 34, 34) ;
    
     border-radius: 10px;
-    border-right:1.5px solid orange;
+    border-right:1.5px solid #FF5F1F;
 
 }
 #main #todo input{
@@ -183,10 +185,10 @@ aside i{
     text-align:center;
 }
 #main #todo button{
-    border:1px solid rgb(250, 193, 88);
+    border:1px solid #FF5F1F;
 }
 #main #todo input{
-    border:1.5px solid rgb(250, 193, 88);
+    border:1.5px solid #FF5F1F;
 }
 .subcontenttitle{
     border-radius: 10px;
@@ -205,7 +207,7 @@ aside i{
     height: 10rem;
     width:10rem;
     border-radius:50%;
-    border:15px solid orange;
+    border:15px solid #FF5F1F;
     text-align: center;
 }
 p{
@@ -216,4 +218,16 @@ p{
     font-size: 25px;
 }
 
+#title{
+    animation :animate 5s ease-in 0s infinite alternate;
+}
+h1{
+    animation :animate 5s ease-in 0s infinite alternate;
+}
+@keyframes animate{
+    from {background-color:black;
+    }
+    to {background-color: #FF5F1F ;
+    }
+}
 
